@@ -1,0 +1,394 @@
+{
+  "IG1-1-1.1": {
+    "id": "IG1-1-1.1",
+    "name": "Establish and Maintain Detailed Enterprise Asset Inventory",
+    "description": "Establish and maintain an accurate, detailed, and up-to-date inventory of all enterprise assets with the potential to store or process data, to include: end-user devices (including portable and mobile), network devices, non-computing/IoT devices, and servers. Ensure the inventory records the network address (if static), hardware address, machine name, enterprise asset owner, department for each asset, and whether the asset has been approved to connect to the network. For mobile end-user devices, MDM type tools can support this process, where appropriate. This inventory includes assets connected to the infrastructure physically, virtually, remotely, and those within cloud environments. Additionally, it includes assets that are regularly connected to the enterprise’s network infrastructure, even if they are not under control of the enterprise. Review and update the inventory of all enterprise assets bi-annually, or more frequently.",
+    "category": "Inventory and Control of Enterprise Assets",
+    "example_list": []
+  },
+  "IG1-1-1.2": {
+    "id": "IG1-1-1.2",
+    "name": "Address Unauthorized Assets",
+    "description": "Ensure that a process exists to address unauthorized assets on a weekly basis. The enterprise may choose to remove the asset from the network, deny the asset from connecting remotely to the network, or quarantine the asset.",
+    "category": "Inventory and Control of Enterprise Assets",
+    "example_list": []
+  },
+  "IG1-2-2.1": {
+    "id": "IG1-2-2.1",
+    "name": "Establish and Maintain a Software Inventory",
+    "description": "Establish and maintain a detailed inventory of all licensed software installed on enterprise assets. The software inventory must document the title, publisher, initial install/use date, and business purpose for each entry; where appropriate, include the Uniform Resource Locator (URL), app store(s), version(s), deployment mechanism, and decommission date. Review and update the software inventory bi-annually, or more frequently.",
+    "category": "Inventory and Control of Software Assets",
+    "example_list": []
+  },
+  "IG1-2-2.2": {
+    "id": "IG1-2-2.2",
+    "name": "Ensure Authorized Software is Currently Supported",
+    "description": "Ensure that only currently supported software is designated as authorized in the software inventory for enterprise assets. If software is unsupported, yet necessary for the fulfillment of the enterprise’s mission, document an exception detailing mitigating controls and residual risk acceptance. For any unsupported software without an exception documentation, designate as unauthorized. Review the software list to verify software support at least monthly, or more frequently.",
+    "category": "Inventory and Control of Software Assets",
+    "example_list": []
+  },
+  "IG1-2-2.3": {
+    "id": "IG1-2-2.3",
+    "name": "Address Unauthorized Software",
+    "description": "Ensure that unauthorized software is either removed from use on enterprise assets or receives a documented exception. Review monthly, or more frequently.",
+    "category": "Inventory and Control of Software Assets",
+    "example_list": []
+  },
+  "IG1-3-3.1": {
+    "id": "IG1-3-3.1",
+    "name": "Establish and Maintain a Data Management Process",
+    "description": "Establish and maintain a documented data management process. In the process, address data sensitivity, data owner, handling of data, data retention limits, and disposal requirements, based on sensitivity and retention standards for the enterprise. Review and update documentation annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Data Protection",
+    "example_list": []
+  },
+  "IG1-3-3.2": {
+    "id": "IG1-3-3.2",
+    "name": "Establish and Maintain a Data Inventory",
+    "description": "Establish and maintain a data inventory based on the enterprise’s data management process. Inventory sensitive data annually, at a minimum. Review and update inventory annually, at a minimum, with a priority on sensitive data.",
+    "category": "Data Protection",
+    "example_list": []
+  },
+  "IG1-3-3.3": {
+    "id": "IG1-3-3.3",
+    "name": "Configure Data Access Control Lists",
+    "description": "Configure data access control lists based on a user’s need to know. Apply data access control lists, also known as access permissions, to local and remote file systems, databases, and applications.",
+    "category": "Data Protection",
+    "example_list": []
+  },
+  "IG1-3-3.4": {
+    "id": "IG1-3-3.4",
+    "name": "Enforce Data Retention",
+    "description": "Retain data according to the enterprise’s documented data management process. Data retention must include both minimum and maximum timelines.",
+    "category": "Data Protection",
+    "example_list": []
+  },
+  "IG1-3-3.5": {
+    "id": "IG1-3-3.5",
+    "name": "Securely Dispose of Data",
+    "description": "Securely dispose of data as outlined in the enterprise’s documented data management process. Ensure the disposal process and method are commensurate with the data sensitivity.",
+    "category": "Data Protection",
+    "example_list": []
+  },
+  "IG1-3-3.6": {
+    "id": "IG1-3-3.6",
+    "name": "Encrypt Data on End-User Devices",
+    "description": "Encrypt data on end-user devices containing sensitive data. Example implementations can include: Windows BitLocker®, Apple FileVault®, Linux® dm-crypt.",
+    "category": "Data Protection",
+    "example_list": []
+  },
+  "IG1-4-4.1": {
+    "id": "IG1-4-4.1",
+    "name": "Establish and Maintain a Secure Configuration Process",
+    "description": "Establish and maintain a documented secure configuration process for enterprise assets (end-user devices, including portable and mobile, non-computing/IoT devices, and servers) and software (operating systems and applications). Review and update documentation annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Secure Configuration of Enterprise Assets and Software",
+    "example_list": []
+  },
+  "IG1-4-4.2": {
+    "id": "IG1-4-4.2",
+    "name": "Establish and Maintain a Secure Configuration Process for Network Infrastructure",
+    "description": "Establish and maintain a documented secure configuration process for network devices. Review and update documentation annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Secure Configuration of Enterprise Assets and Software",
+    "example_list": []
+  },
+  "IG1-4-4.3": {
+    "id": "IG1-4-4.3",
+    "name": "Configure Automatic Session Locking on Enterprise Assets",
+    "description": "Configure automatic session locking on enterprise assets after a defined period of inactivity. For general purpose operating systems, the period must not exceed 15 minutes. For mobile end-user devices, the period must not exceed two (2) minutes.",
+    "category": "Secure Configuration of Enterprise Assets and Software",
+    "example_list": []
+  },
+  "IG1-4-4.4": {
+    "id": "IG1-4-4.4",
+    "name": "Implement and Manage a Firewall on Servers",
+    "description": "Implement and manage a firewall on servers, where supported. Example implementations include a virtual firewall, operating system firewall, or a third-party firewall agent.",
+    "category": "Secure Configuration of Enterprise Assets and Software",
+    "example_list": []
+  },
+  "IG1-4-4.5": {
+    "id": "IG1-4-4.5",
+    "name": "Implement and Manage a Firewall on End-User Devices",
+    "description": "Implement and manage a host-based firewall or port-filtering tool on end-user devices, with a default-deny rule that drops all traffic except those services and ports that are explicitly allowed.",
+    "category": "Secure Configuration of Enterprise Assets and Software",
+    "example_list": []
+  },
+  "IG1-4-4.6": {
+    "id": "IG1-4-4.6",
+    "name": "Securely Manage Enterprise Assets and Software",
+    "description": "Securely manage enterprise assets and software. Example implementations include managing configuration through version-controlled Infrastructure-as-Code (IaC) and accessing administrative interfaces over secure network protocols, such as Secure Shell (SSH) and Hypertext Transfer Protocol Secure (HTTPS). Do not use insecure management protocols, such as Telnet (Teletype Network) and HTTP, unless operationally essential.",
+    "category": "Secure Configuration of Enterprise Assets and Software",
+    "example_list": []
+  },
+  "IG1-4-4.7": {
+    "id": "IG1-4-4.7",
+    "name": "Manage Default Accounts on Enterprise Assets and Software",
+    "description": "Manage default accounts on enterprise assets and software, such as root, administrator, and other pre-configured vendor accounts. Example implementations can include: disabling default accounts or making them unusable.",
+    "category": "Secure Configuration of Enterprise Assets and Software",
+    "example_list": []
+  },
+  "IG1-5-5.1": {
+    "id": "IG1-5-5.1",
+    "name": "Establish and Maintain an Inventory of Accounts",
+    "description": "Establish and maintain an inventory of all accounts managed in the enterprise. The inventory must at a minimum include user, administrator accounts, and service accounts. The inventory, at a minimum, should contain the person’s name, username, start/stop dates, and department. Validate that all active accounts are authorized, on a recurring schedule at a minimum quarterly, or more frequently.",
+    "category": "Account Management",
+    "example_list": []
+  },
+  "IG1-5-5.2": {
+    "id": "IG1-5-5.2",
+    "name": "Use Unique Passwords",
+    "description": "Use unique passwords for all enterprise assets. Best practice implementation includes, at a minimum, an 8-character password for accounts using Multi-Factor Authentication (MFA) and a 14-character password for accounts not using MFA. ",
+    "category": "Account Management",
+    "example_list": []
+  },
+  "IG1-5-5.3": {
+    "id": "IG1-5-5.3",
+    "name": "Disable Dormant Accounts",
+    "description": "Delete or disable any dormant accounts after a period of 45 days of inactivity, where supported.",
+    "category": "Account Management",
+    "example_list": []
+  },
+  "IG1-5-5.4": {
+    "id": "IG1-5-5.4",
+    "name": "Restrict Administrator Privileges to Dedicated Administrator Accounts",
+    "description": "Restrict administrator privileges to dedicated administrator accounts on enterprise assets. Conduct general computing activities, such as internet browsing, email, and productivity suite use, from the user’s primary, non-privileged account.",
+    "category": "Account Management",
+    "example_list": []
+  },
+  "IG1-6-6.1": {
+    "id": "IG1-6-6.1",
+    "name": "Establish an Access Granting Process",
+    "description": "Establish and follow a documented process, preferably automated, for granting access to enterprise assets upon new hire or role change of a user.",
+    "category": "Access Control Management",
+    "example_list": []
+  },
+  "IG1-6-6.2": {
+    "id": "IG1-6-6.2",
+    "name": "Establish an Access Revoking Process",
+    "description": "Establish and follow a process, preferably automated, for revoking access to enterprise assets, through disabling accounts immediately upon termination, rights revocation, or role change of a user. Disabling accounts, instead of deleting accounts, may be necessary to preserve audit trails.",
+    "category": "Access Control Management",
+    "example_list": []
+  },
+  "IG1-6-6.3": {
+    "id": "IG1-6-6.3",
+    "name": "Require MFA for Externally-Exposed Applications",
+    "description": "Require all externally-exposed enterprise or third-party applications to enforce MFA, where supported. Enforcing MFA through a directory service or SSO provider is a satisfactory implementation of this Safeguard.",
+    "category": "Access Control Management",
+    "example_list": []
+  },
+  "IG1-6-6.4": {
+    "id": "IG1-6-6.4",
+    "name": "Require MFA for Remote Network Access",
+    "description": "Require MFA for remote network access.",
+    "category": "Access Control Management",
+    "example_list": []
+  },
+  "IG1-6-6.5": {
+    "id": "IG1-6-6.5",
+    "name": "Require MFA for Administrative Access",
+    "description": "Require MFA for all administrative access accounts, where supported, on all enterprise assets, whether managed on-site or through a service provider.",
+    "category": "Access Control Management",
+    "example_list": []
+  },
+  "IG1-7-7.1": {
+    "id": "IG1-7-7.1",
+    "name": "Establish and Maintain a Vulnerability Management Process",
+    "description": "Establish and maintain a documented vulnerability management process for enterprise assets. Review and update documentation annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Continuous Vulnerability Management",
+    "example_list": []
+  },
+  "IG1-7-7.2": {
+    "id": "IG1-7-7.2",
+    "name": "Establish and Maintain a Remediation Process",
+    "description": "Establish and maintain a risk-based remediation strategy documented in a remediation process, with monthly, or more frequent, reviews.",
+    "category": "Continuous Vulnerability Management",
+    "example_list": []
+  },
+  "IG1-7-7.3": {
+    "id": "IG1-7-7.3",
+    "name": "Perform Automated Operating System Patch Management",
+    "description": "Perform operating system updates on enterprise assets through automated patch management on a monthly, or more frequent, basis.",
+    "category": "Continuous Vulnerability Management",
+    "example_list": []
+  },
+  "IG1-7-7.4": {
+    "id": "IG1-7-7.4",
+    "name": "Perform Automated Application Patch Management",
+    "description": "Perform application updates on enterprise assets through automated patch management on a monthly, or more frequent, basis.",
+    "category": "Continuous Vulnerability Management",
+    "example_list": []
+  },
+  "IG1-8-8.1": {
+    "id": "IG1-8-8.1",
+    "name": "Establish and Maintain an Audit Log Management Process",
+    "description": "Establish and maintain a documented audit log management process that defines the enterprise’s logging requirements. At a minimum, address the collection, review, and retention of audit logs for enterprise assets. Review and update documentation annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Audit Log Management",
+    "example_list": []
+  },
+  "IG1-8-8.2": {
+    "id": "IG1-8-8.2",
+    "name": "Collect Audit Logs",
+    "description": "Collect audit logs. Ensure that logging, per the enterprise’s audit log management process, has been enabled across enterprise assets.",
+    "category": "Audit Log Management",
+    "example_list": []
+  },
+  "IG1-8-8.3": {
+    "id": "IG1-8-8.3",
+    "name": "Ensure Adequate Audit Log Storage",
+    "description": "Ensure that logging destinations maintain adequate storage to comply with the enterprise’s audit log management process.",
+    "category": "Audit Log Management",
+    "example_list": []
+  },
+  "IG1-9-9.1": {
+    "id": "IG1-9-9.1",
+    "name": "Ensure Use of Only Fully Supported Browsers and Email Clients",
+    "description": "Ensure only fully supported browsers and email clients are allowed to execute in the enterprise, only using the latest version of browsers and email clients provided through the vendor.",
+    "category": "Email and Web Browser Protections",
+    "example_list": []
+  },
+  "IG1-9-9.2": {
+    "id": "IG1-9-9.2",
+    "name": "Use DNS Filtering Services",
+    "description": "Use DNS filtering services on all end-user devices, including remote and on-premises assets, to block access to known malicious domains. ",
+    "category": "Email and Web Browser Protections",
+    "example_list": []
+  },
+  "IG1-10-10.1": {
+    "id": "IG1-10-10.1",
+    "name": "Deploy and Maintain Anti-Malware Software",
+    "description": "Deploy and maintain anti-malware software on all enterprise assets.",
+    "category": "Malware Defenses",
+    "example_list": []
+  },
+  "IG1-10-10.2": {
+    "id": "IG1-10-10.2",
+    "name": "Configure Automatic Anti-Malware Signature Updates",
+    "description": "Configure automatic updates for anti-malware signature files on all enterprise assets.",
+    "category": "Malware Defenses",
+    "example_list": []
+  },
+  "IG1-10-10.3": {
+    "id": "IG1-10-10.3",
+    "name": "Disable Autorun and Autoplay for Removable Media",
+    "description": "Disable autorun and autoplay auto-execute functionality for removable media.",
+    "category": "Malware Defenses",
+    "example_list": []
+  },
+  "IG1-11-11.1": {
+    "id": "IG1-11-11.1",
+    "name": "Establish and Maintain a Data Recovery Process",
+    "description": "Establish and maintain a documented data recovery process. In the process, address the scope of data recovery activities, recovery prioritization, and the security of backup data. Review and update documentation annually, or when significant enterprise changes occur that could impact this Safeguard. ",
+    "category": "Data Recovery",
+    "example_list": []
+  },
+  "IG1-11-11.2": {
+    "id": "IG1-11-11.2",
+    "name": "Perform Automated Backups",
+    "description": "Perform automated backups of in-scope enterprise assets. Run backups weekly, or more frequently, based on the sensitivity of the data.",
+    "category": "Data Recovery",
+    "example_list": []
+  },
+  "IG1-11-11.3": {
+    "id": "IG1-11-11.3",
+    "name": "Protect Recovery Data",
+    "description": "Protect recovery data with equivalent controls to the original data. Reference encryption or data separation, based on requirements.",
+    "category": "Data Recovery",
+    "example_list": []
+  },
+  "IG1-11-11.4": {
+    "id": "IG1-11-11.4",
+    "name": "Establish and Maintain an Isolated Instance of Recovery Data",
+    "description": "Establish and maintain an isolated instance of recovery data. Example implementations include, version controlling backup destinations through offline, cloud, or off-site systems or services.",
+    "category": "Data Recovery",
+    "example_list": []
+  },
+  "IG1-12-12.1": {
+    "id": "IG1-12-12.1",
+    "name": "Ensure Network Infrastructure is Up-to-Date",
+    "description": "Ensure network infrastructure is kept up to date. Example implementations include running the latest stable release of software and/or using currently supported network-as-a-service (NaaS) offerings. Review software versions monthly, or more frequently, to verify software support.",
+    "category": "Network Infrastructure Management",
+    "example_list": []
+  },
+  "IG1-14-14.1": {
+    "id": "IG1-14-14.1",
+    "name": "Establish and Maintain a Security Awareness Program",
+    "description": "Establish and maintain a security awareness program. The purpose of a security awareness program is to educate the enterprise’s workforce on how to interact with enterprise assets and data in a secure manner. Conduct training at hire and, at a minimum, annually. Review and update content annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-14-14.2": {
+    "id": "IG1-14-14.2",
+    "name": "Train Workforce Members to Recognize Social Engineering Attacks",
+    "description": "Train workforce members to recognize social engineering attacks, such as phishing, business email compromise (BEC), pretexting, and tailgating. ",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-14-14.3": {
+    "id": "IG1-14-14.3",
+    "name": "Train Workforce Members on Authentication Best Practices",
+    "description": "Train workforce members on authentication best practices. Example topics include MFA, password composition, and credential management.",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-14-14.4": {
+    "id": "IG1-14-14.4",
+    "name": "Train Workforce on Data Handling Best Practices",
+    "description": "Train workforce members on how to identify and properly store, transfer, archive, and destroy sensitive data. This also includes training workforce members on clear screen and desk best practices, such as locking their screen when they step away from their enterprise asset, erasing physical and virtual whiteboards at the end of meetings, and storing data and assets securely.",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-14-14.5": {
+    "id": "IG1-14-14.5",
+    "name": "Train Workforce Members on Causes of Unintentional Data Exposure",
+    "description": "Train workforce members to be aware of causes for unintentional data exposure. Example topics include mis-delivery of sensitive data, losing a portable end-user device, or publishing data to unintended audiences.",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-14-14.6": {
+    "id": "IG1-14-14.6",
+    "name": "Train Workforce Members on Recognizing and Reporting Security Incidents",
+    "description": "Train workforce members to be able to recognize a potential incident and be able to report such an incident. ",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-14-14.7": {
+    "id": "IG1-14-14.7",
+    "name": "Train Workforce on How to Identify and Report if Their Enterprise Assets are Missing Security Updates",
+    "description": "Train workforce to understand how to verify and report out-of-date software patches or any failures in automated processes and tools. Part of this training should include notifying IT personnel of any failures in automated processes and tools.",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-14-14.8": {
+    "id": "IG1-14-14.8",
+    "name": "Train Workforce on the Dangers of Connecting to and Transmitting Enterprise Data Over Insecure Networks",
+    "description": "Train workforce members on the dangers of connecting to and transmitting data over insecure networks for enterprise activities. If the enterprise has remote workers, training must include guidance to ensure that all users securely configure their home network infrastructure.",
+    "category": "Security Awareness and Skills Training",
+    "example_list": []
+  },
+  "IG1-15-15.1": {
+    "id": "IG1-15-15.1",
+    "name": "Establish and Maintain an Inventory of Service Providers",
+    "description": "Establish and maintain an inventory of service providers. The inventory is to list all known service providers, include classification(s), and designate an enterprise contact for each service provider. Review and update the inventory annually, or when significant enterprise changes occur that could impact this Safeguard. ",
+    "category": "Service Provider Management",
+    "example_list": []
+  },
+  "IG1-17-17.1": {
+    "id": "IG1-17-17.1",
+    "name": "Designate Personnel to Manage Incident Handling",
+    "description": "Designate one key person, and at least one backup, who will manage the enterprise’s incident handling process. Management personnel are responsible for the coordination and documentation of incident response and recovery efforts and can consist of employees internal to the enterprise, service providers, or a hybrid approach. If using a service provider, designate at least one person internal to the enterprise to oversee any third-party work. Review annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Incident Response Management",
+    "example_list": []
+  },
+  "IG1-17-17.2": {
+    "id": "IG1-17-17.2",
+    "name": "Establish and Maintain Contact Information for Reporting Security Incidents",
+    "description": "Establish and maintain contact information for parties that need to be informed of security incidents. Contacts may include internal staff, service vendors, law enforcement, cyber insurance providers, relevant government agencies, Information Sharing and Analysis Center (ISAC) partners, or other stakeholders. Verify contacts annually to ensure that information is up to date.",
+    "category": "Incident Response Management",
+    "example_list": []
+  },
+  "IG1-17-17.3": {
+    "id": "IG1-17-17.3",
+    "name": "Establish and Maintain an Enterprise Process for Reporting Incidents",
+    "description": "Establish and maintain a documented enterprise process for the workforce to report security incidents. The process includes reporting timeframe, personnel to report to, mechanism for reporting, and the minimum information to be reported. Ensure the process is publicly available to all of the workforce. Review annually, or when significant enterprise changes occur that could impact this Safeguard.",
+    "category": "Incident Response Management",
+    "example_list": []
+  }
+}

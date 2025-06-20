@@ -1,0 +1,872 @@
+{
+    "1.1.1": {
+        "id": "1.1.1",
+        "description": "Network security controls are implemented and managed according to documented policies and procedures.",
+        "example_list": []
+    },
+    "1.1.2": {
+        "id": "1.1.2",
+        "description": "Roles and responsibilities for managing network security are documented, assigned, and understood.",
+        "example_list": []
+    },
+    "1.2.1": {
+        "id": "1.2.1",
+        "description": "Network security controls are configured to deny all traffic by default, only allowing necessary communication.",
+        "example_list": []
+    },
+    "1.2.2": {
+        "id": "1.2.2",
+        "description": "Network security controls are reviewed and tested at least annually to ensure effectiveness.",
+        "example_list": []
+    },
+    "1.3.1": {
+        "id": "1.3.1",
+        "description": "Inbound and outbound network traffic is restricted to only what is necessary for business purposes.",
+        "example_list": []
+    },
+    "1.3.2": {
+        "id": "1.3.2",
+        "description": "Firewall rules are documented and reviewed regularly.",
+        "example_list": []
+    },
+    "1.4.1": {
+        "id": "1.4.1",
+        "description": "Connections to untrusted networks are approved and securely configured.",
+        "example_list": []
+    },
+    "1.4.2": {
+        "id": "1.4.2",
+        "description": "Remote access is controlled and secured with strong authentication.",
+        "example_list": []
+    },
+    "1.5.1": {
+        "id": "1.5.1",
+        "description": "The organization has formally assigned roles and responsibilities for managing network security.",
+        "example_list": []
+    },
+    "1.5.2": {
+        "id": "1.5.2",
+        "description": "Documentation exists that outlines the specific duties of personnel responsible for network security.",
+        "example_list": []
+    },
+    "1.5.3": {
+        "id": "1.5.3",
+        "description": "Personnel responsible for managing network security have been trained and have the necessary expertise.",
+        "example_list": []
+    },
+    "1.5.4": {
+        "id": "1.5.4",
+        "description": "The organization regularly reviews and updates network security responsibilities to align with changes in technology and threats.",
+        "example_list": []
+    },
+    "1.5.5": {
+        "id": "1.5.5",
+        "description": "Network security responsibilities are communicated to relevant stakeholders, including IT staff, management, and third-party providers.",
+        "example_list": []
+    },
+    "2.1.1": {
+        "id": "2.1.1",
+        "description": "Security configuration standards are documented and maintained.",
+        "example_list": []
+    },
+    "2.1.2": {
+        "id": "2.1.2",
+        "description": "Secure configuration policies align with industry best practices.",
+        "example_list": []
+    },
+    "2.2.1": {
+        "id": "2.2.1",
+        "description": "Default passwords and settings are changed before deployment.",
+        "example_list": []
+    },
+    "2.2.2": {
+        "id": "2.2.2",
+        "description": "Unnecessary services, functions, and accounts are disabled.",
+        "example_list": []
+    },
+    "2.2.3": {
+        "id": "2.2.3",
+        "description": "Security parameters for system components are configured securely.",
+        "example_list": []
+    },
+    "2.3.1": {
+        "id": "2.3.1",
+        "description": "Security settings for system components are reviewed regularly.",
+        "example_list": []
+    },
+    "2.3.2": {
+        "id": "2.3.2",
+        "description": "Secure protocols and encryption methods are implemented.",
+        "example_list": []
+    },
+    "2.4.1": {
+        "id": "2.4.1",
+        "description": "Configuration standards align with industry best practices.",
+        "example_list": []
+    },
+    "2.4.2": {
+        "id": "2.4.2",
+        "description": "Compliance with configuration standards is reviewed regularly.",
+        "example_list": []
+    },
+    "2.5.1": {
+        "id": "2.5.1",
+        "description": "System security settings are hardened based on risk assessments.",
+        "example_list": []
+    },
+    "2.6.1": {
+        "id": "2.6.1",
+        "description": "Configuration changes follow a formal change management process.",
+        "example_list": []
+    },
+    "3.1.1": {
+        "id": "3.1.1",
+        "description": "A formal data protection policy is documented, reviewed, and maintained.",
+        "example_list": []
+    },
+    "3.1.2": {
+        "id": "3.1.2",
+        "description": "Responsibilities for protecting stored cardholder data are assigned and understood.",
+        "example_list": []
+    },
+    "3.2.1": {
+        "id": "3.2.1",
+        "description": "Cardholder data retention is minimized based on business and legal requirements.",
+        "example_list": []
+    },
+    "3.2.2": {
+        "id": "3.2.2",
+        "description": "Cardholder data storage locations are documented and reviewed regularly.",
+        "example_list": []
+    },
+    "3.2.3": {
+        "id": "3.2.3",
+        "description": "Stored data is deleted when no longer needed for business or legal purposes.",
+        "example_list": []
+    },
+    "3.3.1": {
+        "id": "3.3.1",
+        "description": "Full magnetic stripe data, CVV, PINs, or other sensitive authentication data are never stored post-authorization.",
+        "example_list": []
+    },
+    "3.3.2": {
+        "id": "3.3.2",
+        "description": "Systems are configured to prevent the storage of sensitive authentication data.",
+        "example_list": []
+    },
+    "3.4.1": {
+        "id": "3.4.1",
+        "description": "PAN is encrypted, tokenized, or masked when stored.",
+        "example_list": []
+    },
+    "3.4.2": {
+        "id": "3.4.2",
+        "description": "PAN truncation follows industry best practices.",
+        "example_list": []
+    },
+    "3.5.1": {
+        "id": "3.5.1",
+        "description": "Cryptographic keys are securely stored and protected from unauthorized access.",
+        "example_list": []
+    },
+    "3.5.2": {
+        "id": "3.5.2",
+        "description": "Key management policies ensure that encryption keys are rotated periodically.",
+        "example_list": []
+    },
+    "3.6.1": {
+        "id": "3.6.1",
+        "description": "Strong encryption algorithms are used for data protection.",
+        "example_list": []
+    },
+    "3.6.2": {
+        "id": "3.6.2",
+        "description": "Cryptographic implementations follow industry-accepted best practices.",
+        "example_list": []
+    },
+    "4.1.1": {
+        "id": "4.1.1",
+        "description": "A formal policy for encrypting cardholder data in transit is documented and maintained.",
+        "example_list": []
+    },
+    "4.1.2": {
+        "id": "4.1.2",
+        "description": "Responsibilities for managing encryption and data transmission security are assigned and understood.",
+        "example_list": []
+    },
+    "4.2.1": {
+        "id": "4.2.1",
+        "description": "Only trusted cryptographic protocols (e.g., TLS 1.2 or higher) are used to encrypt cardholder data during transmission.",
+        "example_list": []
+    },
+    "4.2.2": {
+        "id": "4.2.2",
+        "description": "Weak encryption protocols (e.g., SSL/TLS versions lower than 1.2) are disabled.",
+        "example_list": []
+    },
+    "4.3.1": {
+        "id": "4.3.1",
+        "description": "Cardholder data is never transmitted in cleartext over open networks.",
+        "example_list": []
+    },
+    "4.3.2": {
+        "id": "4.3.2",
+        "description": "Wireless transmissions of cardholder data are encrypted using industry-accepted protocols.",
+        "example_list": []
+    },
+    "4.3.3": {
+        "id": "4.3.3",
+        "description": "Secure email, instant messaging, or file transfer protocols are used when transmitting sensitive data.",
+        "example_list": []
+    },
+    "4.4.1": {
+        "id": "4.4.1",
+        "description": "Encryption keys are stored securely using industry best practices (e.g., hardware security modules).",
+        "example_list": []
+    },
+    "4.4.2": {
+        "id": "4.4.2",
+        "description": "Encryption keys used for data transmission are rotated periodically and updated as per cryptographic policies.",
+        "example_list": []
+    },
+    "5.1.1": {
+        "id": "5.1.1",
+        "description": "A formal anti-malware policy is documented and maintained.",
+        "example_list": []
+    },
+    "5.1.2": {
+        "id": "5.1.2",
+        "description": "Responsibilities for malware protection are assigned and understood.",
+        "example_list": []
+    },
+    "5.2.1": {
+        "id": "5.2.1",
+        "description": "Systems commonly affected by malware have active anti-malware protection installed.",
+        "example_list": []
+    },
+    "5.2.2": {
+        "id": "5.2.2",
+        "description": "Anti-malware solutions perform regular scans and real-time monitoring of system activity.",
+        "example_list": []
+    },
+    "5.2.3": {
+        "id": "5.2.3",
+        "description": "Anti-malware solutions are configured to prevent, detect, and respond to known threats.",
+        "example_list": []
+    },
+    "5.3.1": {
+        "id": "5.3.1",
+        "description": "Anti-malware signatures and software are updated automatically or manually at least daily.",
+        "example_list": []
+    },
+    "5.3.2": {
+        "id": "5.3.2",
+        "description": "Anti-malware solutions are reviewed periodically to ensure effectiveness.",
+        "example_list": []
+    },
+    "5.4.1": {
+        "id": "5.4.1",
+        "description": "Malware infections are logged and monitored.",
+        "example_list": []
+    },
+    "5.4.2": {
+        "id": "5.4.2",
+        "description": "Systems are configured to alert administrators when malware is detected.",
+        "example_list": []
+    },
+    "5.4.3": {
+        "id": "5.4.3",
+        "description": "Malware incidents are investigated and remediated in a timely manner.",
+        "example_list": []
+    },
+    "5.5.1": {
+        "id": "5.5.1",
+        "description": "Only authorized software is installed and executed on systems handling cardholder data.",
+        "example_list": []
+    },
+    "5.5.2": {
+        "id": "5.5.2",
+        "description": "Mechanisms such as allow-listing or application control are used to prevent unauthorized software execution.",
+        "example_list": []
+    },
+    "6.1.1": {
+        "id": "6.1.1",
+        "description": "Security policies and procedures for software development and system maintenance are documented and updated regularly.",
+        "example_list": []
+    },
+    "6.1.2": {
+        "id": "6.1.2",
+        "description": "Responsibilities for maintaining secure systems and software are assigned and understood.",
+        "example_list": []
+    },
+    "6.2.1": {
+        "id": "6.2.1",
+        "description": "A process is in place to identify, evaluate, and prioritize security vulnerabilities.",
+        "example_list": []
+    },
+    "6.2.2": {
+        "id": "6.2.2",
+        "description": "Security patches are applied to system components based on risk assessments and vendor recommendations.",
+        "example_list": []
+    },
+    "6.2.3": {
+        "id": "6.2.3",
+        "description": "Critical security patches are applied within the time frame defined by organizational policy.",
+        "example_list": []
+    },
+    "6.3.1": {
+        "id": "6.3.1",
+        "description": "Secure coding guidelines are documented and integrated into the software development lifecycle (SDLC).",
+        "example_list": []
+    },
+    "6.3.2": {
+        "id": "6.3.2",
+        "description": "Developers receive training on secure coding practices.",
+        "example_list": []
+    },
+    "6.3.3": {
+        "id": "6.3.3",
+        "description": "Software security requirements are documented before development begins.",
+        "example_list": []
+    },
+    "6.3.4": {
+        "id": "6.3.4",
+        "description": "Security testing is conducted at each phase of development.",
+        "example_list": []
+    },
+    "6.4.1": {
+        "id": "6.4.1",
+        "description": "Web applications are protected against common vulnerabilities such as SQL injection and cross-site scripting (XSS).",
+        "example_list": []
+    },
+    "6.4.2": {
+        "id": "6.4.2",
+        "description": "Applications are regularly reviewed and tested for security weaknesses.",
+        "example_list": []
+    },
+    "6.5.1": {
+        "id": "6.5.1",
+        "description": "Protections such as web application firewalls (WAFs) and runtime application self-protection (RASP) are implemented where applicable.",
+        "example_list": []
+    },
+    "6.5.2": {
+        "id": "6.5.2",
+        "description": "Controls are in place to block known attack techniques against system components.",
+        "example_list": []
+    },
+    "6.6.1": {
+        "id": "6.6.1",
+        "description": "Security patches are tested before deployment to ensure compatibility.",
+        "example_list": []
+    },
+    "6.6.2": {
+        "id": "6.6.2",
+        "description": "Patch deployment is documented, monitored, and verified.",
+        "example_list": []
+    },
+    "7.1.1": {
+        "id": "7.1.1",
+        "description": "Access control policies and procedures are documented, reviewed, and updated regularly.",
+        "example_list": []
+    },
+    "7.1.2": {
+        "id": "7.1.2",
+        "description": "Access control mechanisms are implemented based on business needs and the principle of least privilege.",
+        "example_list": []
+    },
+    "7.2.1": {
+        "id": "7.2.1",
+        "description": "Only authorized users have access to system components and cardholder data.",
+        "example_list": []
+    },
+    "7.2.2": {
+        "id": "7.2.2",
+        "description": "Role-based access controls (RBAC) are implemented to restrict access based on job responsibilities.",
+        "example_list": []
+    },
+    "7.2.3": {
+        "id": "7.2.3",
+        "description": "System access is granted based on the principle of least privilege.",
+        "example_list": []
+    },
+    "7.3.1": {
+        "id": "7.3.1",
+        "description": "User access permissions are reviewed at least every six months.",
+        "example_list": []
+    },
+    "7.3.2": {
+        "id": "7.3.2",
+        "description": "Accounts that are no longer required (e.g., terminated employees) are removed or disabled immediately.",
+        "example_list": []
+    },
+    "7.3.3": {
+        "id": "7.3.3",
+        "description": "Changes to user access permissions follow a documented approval process.",
+        "example_list": []
+    },
+    "7.4.1": {
+        "id": "7.4.1",
+        "description": "System administrators and privileged accounts have the minimum necessary access to perform their job duties.",
+        "example_list": []
+    },
+    "7.4.2": {
+        "id": "7.4.2",
+        "description": "Emergency or temporary access is granted only when necessary and is revoked after use.",
+        "example_list": []
+    },
+    "7.4.3": {
+        "id": "7.4.3",
+        "description": "Privileged access is monitored and logged for security auditing.",
+        "example_list": []
+    },
+    "8.1.1": {
+        "id": "8.1.1",
+        "description": "Authentication policies and procedures are documented, reviewed, and updated regularly.",
+        "example_list": []
+    },
+    "8.1.2": {
+        "id": "8.1.2",
+        "description": "Authentication requirements cover all system components that handle cardholder data.",
+        "example_list": []
+    },
+    "8.2.1": {
+        "id": "8.2.1",
+        "description": "Each individual user is assigned a unique ID before being granted system access.",
+        "example_list": []
+    },
+    "8.2.2": {
+        "id": "8.2.2",
+        "description": "Group or shared accounts are not used for accessing cardholder data.",
+        "example_list": []
+    },
+    "8.2.3": {
+        "id": "8.2.3",
+        "description": "User accounts are reviewed periodically to ensure proper authorization.",
+        "example_list": []
+    },
+    "8.3.1": {
+        "id": "8.3.1",
+        "description": "Passwords, biometrics, or other authentication methods meet industry security standards.",
+        "example_list": []
+    },
+    "8.3.2": {
+        "id": "8.3.2",
+        "description": "Default and vendor-supplied authentication credentials are changed before deployment.",
+        "example_list": []
+    },
+    "8.3.3": {
+        "id": "8.3.3",
+        "description": "Authentication credentials are protected from unauthorized disclosure and reuse.",
+        "example_list": []
+    },
+    "8.4.1": {
+        "id": "8.4.1",
+        "description": "MFA is required for all non-console administrative access to system components.",
+        "example_list": []
+    },
+    "8.4.2": {
+        "id": "8.4.2",
+        "description": "MFA is required for remote access to the cardholder data environment (CDE).",
+        "example_list": []
+    },
+    "8.4.3": {
+        "id": "8.4.3",
+        "description": "MFA implementations are tested and reviewed for effectiveness.",
+        "example_list": []
+    },
+    "8.5.1": {
+        "id": "8.5.1",
+        "description": "Minimum password length and complexity requirements are defined and enforced.",
+        "example_list": []
+    },
+    "8.5.2": {
+        "id": "8.5.2",
+        "description": "Authentication credentials must be changed periodically, based on risk assessment.",
+        "example_list": []
+    },
+    "8.5.3": {
+        "id": "8.5.3",
+        "description": "Account lockout policies are enforced after a defined number of failed login attempts.",
+        "example_list": []
+    },
+    "8.6.1": {
+        "id": "8.6.1",
+        "description": "Passwords are stored using strong cryptographic methods.",
+        "example_list": []
+    },
+    "8.6.2": {
+        "id": "8.6.2",
+        "description": "Authentication credentials are transmitted securely using encryption.",
+        "example_list": []
+    },
+    "8.6.3": {
+        "id": "8.6.3",
+        "description": "User authentication logs are monitored and reviewed for suspicious activity.",
+        "example_list": []
+    },
+    "9.1.1": {
+        "id": "9.1.1",
+        "description": "Policies and procedures for physical security are documented and reviewed.",
+        "example_list": []
+    },
+    "9.1.2": {
+        "id": "9.1.2",
+        "description": "Physical security policies cover all areas where cardholder data is stored or processed.",
+        "example_list": []
+    },
+    "9.2.1": {
+        "id": "9.2.1",
+        "description": "Access to physical locations containing cardholder data is restricted to authorized personnel only.",
+        "example_list": []
+    },
+    "9.2.2": {
+        "id": "9.2.2",
+        "description": "Visitors are required to sign in, wear identification, and be escorted at all times in secure areas.",
+        "example_list": []
+    },
+    "9.2.3": {
+        "id": "9.2.3",
+        "description": "Visitor logs are maintained and reviewed regularly.",
+        "example_list": []
+    },
+    "9.3.1": {
+        "id": "9.3.1",
+        "description": "Visitors are granted access only for specific, authorized purposes.",
+        "example_list": []
+    },
+    "9.3.2": {
+        "id": "9.3.2",
+        "description": "Visitor logs include name, organization, date/time of entry and exit, and purpose of visit.",
+        "example_list": []
+    },
+    "9.3.3": {
+        "id": "9.3.3",
+        "description": "Visitor logs are retained for at least three months.",
+        "example_list": []
+    },
+    "9.4.1": {
+        "id": "9.4.1",
+        "description": "Workstations and servers that process cardholder data are physically secured.",
+        "example_list": []
+    },
+    "9.4.2": {
+        "id": "9.4.2",
+        "description": "Access to sensitive areas, including data centers and server rooms, is monitored and logged.",
+        "example_list": []
+    },
+    "9.4.3": {
+        "id": "9.4.3",
+        "description": "Access to removable media containing cardholder data is controlled.",
+        "example_list": []
+    },
+    "9.5.1": {
+        "id": "9.5.1",
+        "description": "All media containing cardholder data (e.g., hard drives, backup tapes, USB drives) is labeled and securely stored.",
+        "example_list": []
+    },
+    "9.5.2": {
+        "id": "9.5.2",
+        "description": "Media storage locations are secured with access restrictions.",
+        "example_list": []
+    },
+    "9.5.3": {
+        "id": "9.5.3",
+        "description": "Movement of media is logged and tracked.",
+        "example_list": []
+    },
+    "9.6.1": {
+        "id": "9.6.1",
+        "description": "Media containing cardholder data is rendered unreadable before disposal (e.g., shredding, degaussing, or secure wipe).",
+        "example_list": []
+    },
+    "9.6.2": {
+        "id": "9.6.2",
+        "description": "Secure disposal policies are documented and followed by all personnel handling sensitive media.",
+        "example_list": []
+    },
+    "9.6.3": {
+        "id": "9.6.3",
+        "description": "Third-party disposal services are reviewed and monitored to ensure compliance with secure disposal policies.",
+        "example_list": []
+    },
+    "10.1.1": {
+        "id": "10.1.1",
+        "description": "Logging policies and procedures are documented, reviewed, and updated regularly.",
+        "example_list": []
+    },
+    "10.1.2": {
+        "id": "10.1.2",
+        "description": "Logging mechanisms are implemented to track system activity.",
+        "example_list": []
+    },
+    "10.2.1": {
+        "id": "10.2.1",
+        "description": "Logs capture user activities, including access to sensitive systems and data.",
+        "example_list": []
+    },
+    "10.2.2": {
+        "id": "10.2.2",
+        "description": "Logs include details such as user ID, event type, date/time, and system component affected.",
+        "example_list": []
+    },
+    "10.2.3": {
+        "id": "10.2.3",
+        "description": "All administrative access, root/superuser activity, and changes to security configurations are logged.",
+        "example_list": []
+    },
+    "10.2.4": {
+        "id": "10.2.4",
+        "description": "Failed login attempts and account lockouts are recorded.",
+        "example_list": []
+    },
+    "10.3.1": {
+        "id": "10.3.1",
+        "description": "Log files are stored securely and access is restricted to authorized personnel.",
+        "example_list": []
+    },
+    "10.3.2": {
+        "id": "10.3.2",
+        "description": "Log integrity mechanisms prevent tampering and unauthorized modifications.",
+        "example_list": []
+    },
+    "10.3.3": {
+        "id": "10.3.3",
+        "description": "Log retention policies ensure logs are retained for at least one year, with three months of logs immediately available for analysis.",
+        "example_list": []
+    },
+    "10.4.1": {
+        "id": "10.4.1",
+        "description": "Logs are reviewed daily to identify suspicious activity.",
+        "example_list": []
+    },
+    "10.4.2": {
+        "id": "10.4.2",
+        "description": "Automated log monitoring tools are used to detect anomalies.",
+        "example_list": []
+    },
+    "10.4.3": {
+        "id": "10.4.3",
+        "description": "Alerts for unusual access patterns or security events are investigated promptly.",
+        "example_list": []
+    },
+    "10.5.1": {
+        "id": "10.5.1",
+        "description": "A Security Information and Event Management (SIEM) solution or equivalent is deployed to correlate and analyze logs in real-time.",
+        "example_list": []
+    },
+    "10.5.2": {
+        "id": "10.5.2",
+        "description": "Critical security alerts are escalated and addressed immediately.",
+        "example_list": []
+    },
+    "10.6.1": {
+        "id": "10.6.1",
+        "description": "Incident response procedures are in place for handling log anomalies.",
+        "example_list": []
+    },
+    "10.6.2": {
+        "id": "10.6.2",
+        "description": "Security incidents detected through log analysis are escalated and remediated.",
+        "example_list": []
+    },
+    "10.6.3": {
+        "id": "10.6.3",
+        "description": "Incident reports are documented, and lessons learned are applied to improve security monitoring.",
+        "example_list": []
+    },
+    "11.1.1": {
+        "id": "11.1.1",
+        "description": "A formal security testing process is established.",
+        "example_list": []
+    },
+    "11.1.2": {
+        "id": "11.1.2",
+        "description": "Security testing procedures align with industry best practices.",
+        "example_list": []
+    },
+    "11.2.1": {
+        "id": "11.2.1",
+        "description": "Internal vulnerability scans are conducted at least quarterly and after significant changes.",
+        "example_list": []
+    },
+    "11.2.2": {
+        "id": "11.2.2",
+        "description": "External vulnerability scans are performed at least quarterly by an Approved Scanning Vendor (ASV).",
+        "example_list": []
+    },
+    "11.2.3": {
+        "id": "11.2.3",
+        "description": "Identified vulnerabilities are remediated according to risk rankings.",
+        "example_list": []
+    },
+    "11.3.1": {
+        "id": "11.3.1",
+        "description": "Internal and external penetration testing is performed at least annually.",
+        "example_list": []
+    },
+    "11.3.2": {
+        "id": "11.3.2",
+        "description": "Penetration tests cover application-layer and network-layer vulnerabilities.",
+        "example_list": []
+    },
+    "11.3.3": {
+        "id": "11.3.3",
+        "description": "Penetration testing includes exploitation of identified vulnerabilities.",
+        "example_list": []
+    },
+    "11.3.4": {
+        "id": "11.3.4",
+        "description": "Segmentation testing is performed at least annually to ensure isolation of the cardholder data environment (CDE).",
+        "example_list": []
+    },
+    "11.4.1": {
+        "id": "11.4.1",
+        "description": "Intrusion detection or prevention systems (IDS/IPS) monitor critical network traffic.",
+        "example_list": []
+    },
+    "11.4.2": {
+        "id": "11.4.2",
+        "description": "IDS/IPS alerts are monitored and responded to in a timely manner.",
+        "example_list": []
+    },
+    "11.4.3": {
+        "id": "11.4.3",
+        "description": "IDS/IPS configurations are reviewed and updated regularly.",
+        "example_list": []
+    },
+    "11.5.1": {
+        "id": "11.5.1",
+        "description": "File integrity monitoring (FIM) solutions are deployed to detect unauthorized changes.",
+        "example_list": []
+    },
+    "11.5.2": {
+        "id": "11.5.2",
+        "description": "Critical system files and configurations are monitored for unexpected modifications.",
+        "example_list": []
+    },
+    "11.5.3": {
+        "id": "11.5.3",
+        "description": "Alerts for unauthorized changes are investigated and resolved.",
+        "example_list": []
+    },
+    "11.6.1": {
+        "id": "11.6.1",
+        "description": "Mechanisms are implemented to detect unauthorized modifications to payment pages.",
+        "example_list": []
+    },
+    "11.6.2": {
+        "id": "11.6.2",
+        "description": "Unauthorized modifications are logged, investigated, and remediated.",
+        "example_list": []
+    },
+    "11.6.3": {
+        "id": "11.6.3",
+        "description": "The integrity of e-commerce payment pages is reviewed periodically.",
+        "example_list": []
+    },
+    "12.1.1": {
+        "id": "12.1.1",
+        "description": "Information security policies are documented, reviewed, and updated regularly.",
+        "example_list": []
+    },
+    "12.1.2": {
+        "id": "12.1.2",
+        "description": "Policies cover all applicable PCI DSS requirements.",
+        "example_list": []
+    },
+    "12.2.1": {
+        "id": "12.2.1",
+        "description": "Acceptable use policies define security responsibilities for employees and third parties.",
+        "example_list": []
+    },
+    "12.2.2": {
+        "id": "12.2.2",
+        "description": "Policies are communicated to all relevant personnel.",
+        "example_list": []
+    },
+    "12.3.1": {
+        "id": "12.3.1",
+        "description": "A formal risk assessment process is in place.",
+        "example_list": []
+    },
+    "12.3.2": {
+        "id": "12.3.2",
+        "description": "Security risks are identified, evaluated, and mitigated.",
+        "example_list": []
+    },
+    "12.3.3": {
+        "id": "12.3.3",
+        "description": "Risk assessments are conducted at least annually.",
+        "example_list": []
+    },
+    "12.4.1": {
+        "id": "12.4.1",
+        "description": "Senior management is responsible for implementing and maintaining security policies.",
+        "example_list": []
+    },
+    "12.4.2": {
+        "id": "12.4.2",
+        "description": "Security roles and responsibilities are clearly defined.",
+        "example_list": []
+    },
+    "12.5.1": {
+        "id": "12.5.1",
+        "description": "A formal security awareness program is implemented.",
+        "example_list": []
+    },
+    "12.5.2": {
+        "id": "12.5.2",
+        "description": "Employees receive regular security training.",
+        "example_list": []
+    },
+    "12.5.3": {
+        "id": "12.5.3",
+        "description": "Security training includes social engineering and phishing awareness.",
+        "example_list": []
+    },
+    "12.6.1": {
+        "id": "12.6.1",
+        "description": "An incident response plan is documented and maintained.",
+        "example_list": []
+    },
+    "12.6.2": {
+        "id": "12.6.2",
+        "description": "Incident response procedures include roles, responsibilities, and escalation paths.",
+        "example_list": []
+    },
+    "12.6.3": {
+        "id": "12.6.3",
+        "description": "The incident response plan is tested at least annually.",
+        "example_list": []
+    },
+    "12.6.4": {
+        "id": "12.6.4",
+        "description": "Employees are trained on incident response procedures.",
+        "example_list": []
+    },
+    "12.7.1": {
+        "id": "12.7.1",
+        "description": "Contracts with third-party providers include PCI DSS compliance requirements.",
+        "example_list": []
+    },
+    "12.7.2": {
+        "id": "12.7.2",
+        "description": "Third-party security responsibilities are reviewed and monitored.",
+        "example_list": []
+    },
+    "12.8.1": {
+        "id": "12.8.1",
+        "description": "An internal compliance monitoring program is implemented.",
+        "example_list": []
+    },
+    "12.8.2": {
+        "id": "12.8.2",
+        "description": "Regular PCI DSS assessments are conducted.",
+        "example_list": []
+    },
+    "12.8.3": {
+        "id": "12.8.3",
+        "description": "Evidence of compliance is maintained and available for audits.",
+        "example_list": []
+    }
+}

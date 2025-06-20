@@ -1,0 +1,67 @@
+You have reviewed your privacy policies and are satisfied that they are complete and easy to understand.
+You have clearly delineated who, within your organization, is responsible for privacy governance and management.
+You have privacy policies and practices that apply to the personal information of your employees as well as that of your customers.
+You have appointed at least one person to be responsible for the organization’s overall compliance with PIPEDA.
+You have directed staff to provide the contact information of the privacy officer upon request.
+You use contractual agreements to ensure a comparable level of privacy protection is offered to personal information while it is in the custody of a third party for processing.
+You have verified that third parties have implemented the privacy controls stated in any contractual agreements.
+You are accountable for the protection of personal information.
+Your privacy framework addresses the principle of “identifying purpose” regarding personal information.
+Your privacy framework addresses the principle of “consent” regarding personal information.
+Your privacy framework addresses the principle of “limiting collection” of personal information.
+Your privacy framework addresses the principle of “limiting use, disclosure and retention” of personal information
+Your privacy framework addresses the principle of “accuracy” regarding personal information.
+Your privacy framework addresses the principle of “safeguards” with respect to personal information.
+Your privacy framework addresses the principle of “openness” regarding personal information.
+Your privacy framework addresses the principle of “individual access” regarding personal information.
+Your privacy framework addresses the principle of “challenging compliance” regarding personal information.
+You have communicated information related to personal information handling policies, procedures and practices to staff.
+You have trained staff regarding the protection of personal information by informing them of organizational privacy policies, procedures and best practices.
+You have the means in place to identify which of your staff should be trained in privacy, including new staff and refresher training of existing staff.
+You have developed documentation to explain your personal information protection policies and procedures to customers and the general public.
+You identify why you are collecting personal information at or before the time of collection.
+You have documented your purpose(s) for collecting personal information.
+You have notified clients and customers of new purposes for which you will use information if they weren’t identified at the time information was collected.
+You seek the consent of clients and customers before using information for any new purpose if required.
+You have notified clients and customers of the purposes before using or disclosing the information if notification at the time of collection was not practicable.
+You have determined the amounts and types of personal information needed to fulfill your purpose(s).
+You have determined why you are collecting personal information and that the amount and types of personal information collected are reasonable in normal business circumstances. You have distinguished between essent
+You distinguish between essential and non-essential information and notify clients accordingly.
+You obtain customer consent for any collection, use or disclosure of personal information.
+You make reasonable efforts to ensure that clients and customers are notified of the purposes for which personal information will be used or disclosed.
+You do not require clients to consent to the collection, use or disclosure of personal information beyond what is necessary.
+You allow a client or customer to withdraw consent at any time subject to legal or contractual restrictions.
+You inform clients and customers of the implication of the withdrawal of consent.
+You limit the amount and type of personal information you collect to what is necessary for the identified purpose.
+You collect information only by fair and lawful means.
+You document the specific types of information you collect along with the purposes for collection.
+You distinguish between mandatory and optional collection of personal information.
+You limit your collection of Social Insurance Numbers (SIN) to legally established purposes.
+You do not use or disclose information for purposes beyond those for which it was collected, except with consent.
+You only retain personal information as long as necessary to allow for the fulfillment of identified purposes.
+Your privacy management framework governs the destruction of personal information, including contractor responsibilities.
+You take reasonable measures to ensure that personal information is accurate, complete and up-to-date.
+You only update personal information if the process is necessary to fulfill the purposes for which it was collected.
+You allow individuals to challenge the accuracy of personal information and amend it if needed.
+You record when and where key information was collected, including dates of corrections or updates.
+You conduct periodic spot-checks to ensure information accuracy.
+You have adopted safeguards to protect personal information against unauthorized access, disclosure, copying, use or modification.
+You choose security safeguards that are appropriate to the sensitivity of the information.
+You protect all personal information regardless of the format in which it is held.
+You make employees aware of the importance of maintaining confidentiality.
+You have policies for securely disposing of personal information.
+You make information regarding policies and procedures related to personal information management available to individuals.
+You explain to customers why you collect, how you use, and when you will disclose their personal information.
+You provide information on who to contact regarding privacy inquiries or complaints.
+You provide a description of personal information you hold and what you disclose to other organizations.
+You describe how individuals can access and correct their personal information.
+You have policies and procedures for responding to requests for personal information under PIPEDA.
+You inform individuals of the existence, use, and disclosure of their personal information upon written request.
+You provide individuals with access to their personal information upon request.
+You provide an account of the uses of personal information upon request.
+You allow individuals to challenge the accuracy of personal information and amend it if needed.
+You enable individuals to address compliance challenges to the designated privacy officer.
+You have policies for receiving and responding to privacy complaints.
+You advise individuals of their right to make complaints to regulatory bodies.
+You investigate all complaints received about your personal information handling practices.
+You take corrective action if a complaint is substantiated and work to prevent recurrence.

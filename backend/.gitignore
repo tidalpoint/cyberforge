@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Flask & environment variables
+instance/
+*.log
+*.sqlite3
+.env
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Pip dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Caches
+.cache/
+*.egg-info/
+dist/
+build/
+
+# Migrations (if using Flask-Migrate)
+migrations/
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Runtime app data
+improved_docs/
+input_docs/
+chats/
+vector_db/
+expert_knowledge_vector_db/

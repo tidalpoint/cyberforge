@@ -1,0 +1,80 @@
+@import '@fontsource/manrope/400.css';
+@import '@fontsource/manrope/500.css';
+@import '@fontsource/manrope/600.css';
+@import '@fontsource/manrope/700.css';
+@import '@fontsource/manrope/800.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gray-50: 0 0% 96%;
+    --gray-100: 0 0% 95%;
+    --gray-200: 0 0% 93%;
+    --gray-300: 0 0% 74%;
+    --gray-400: 0 0% 63%;
+    --gray-500: 0 0% 57%;
+    --gray-600: 0 0% 51%;
+    --gray-700: 0 0% 44%;
+    --gray-800: 0 0% 35%;
+    --gray-900: 0 0% 29%;
+
+    --accents-100: 0 0% 60%;
+    --accents-200: 0 0% 53%;
+    --accents-300: 0 0% 47%;
+    --accents-400: 0 0% 40%;
+    --accents-500: 0 0% 33%;
+    --accents-600: 0 0% 27%;
+    --accents-700: 0 0% 20%;
+    --accents-800: 0 0% 13%;
+    --accents-900: 0 0% 7%;
+
+    --major: 0 72% 56%;
+    --minor: 53 71% 46%;
+    --compliant: 140 65% 45%;
+
+    --background: var(--gray-50);
+    --foreground: 0 0% 23%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 29%;
+    --popover: 0 0% 100%;
+    --popover-foreground: var(--gray-600);
+    --primary: 228 78% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 222 68% 16%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 180 13% 91%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 0 0% 95%;
+    --accent-foreground: 0 0% 35%;
+    --destructive: 0 73% 49%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 86%;
+    --input: 0 0% 95%;
+    --ring: 0 0% 4%;
+
+    --chart-1: 18 78% 57%;
+    --chart-2: 162 60% 39%;
+    --chart-3: 203 54% 26%;
+    --chart-4: 38 90% 61%;
+    --chart-5: 34 93% 61%;
+
+    --radius: 0.5rem;
+    --header-height: 64px;
+    --footer-height: 72px;
+    --page-max-width: 712px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    overscroll-behavior: none;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

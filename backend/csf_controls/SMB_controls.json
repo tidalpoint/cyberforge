@@ -1,0 +1,403 @@
+{
+  "OC.1": {
+    "id": "OC.1",
+    "name": "Organizational Controls - 1",
+    "description": "Organizations using the baseline controls should have less than  499 employees.",
+    "category": "Organizational Controls",
+    "subcategory": "Assess Organizational Size",
+    "example_list": []
+  },
+  "OC.2": {
+    "id": "OC.2",
+    "name": "Organizational Controls - 2",
+    "description": "Organizations should list wh ich parts of their information systems and assets are in scope for their implementation of the baseline controls  and should provide the rationale for excluding information systems and assets and recognize the acceptance of risk in doing so .",
+    "category": "Organizational Controls",
+    "subcategory": "Determine What Information Technology is in Scope",
+    "example_list": []
+  },
+  "OC.3": {
+    "id": "OC.3",
+    "name": "Organizational Controls - 3",
+    "description": "Organizations should assess the potential injury to the confidentiality, integrity, and availability to their information  systems and assets.",
+    "category": "Organizational Controls",
+    "subcategory": "Determine The Value of Information Systems and Assets",
+    "example_list": []
+  },
+  "OC.4": {
+    "id": "OC.4",
+    "name": "Organizational Controls - 4",
+    "description": "Organizations should self identify their primary  cyber  threat .",
+    "category": "Organizational Controls",
+    "subcategory": "Confirm The Cyber Security Threat Level",
+    "example_list": []
+  },
+  "OC.5.1": {
+    "id": "OC.5.1",
+    "name": "Organizational Controls - 5.1",
+    "description": "Organizations should identify someone in a leadership role who is specifically responsible for their IT security.",
+    "category": "Organizational Controls",
+    "subcategory": "Confirm Cyber Security Investment Levels",
+    "example_list": []
+  },
+  "OC.5.2": {
+    "id": "OC.5.2",
+    "name": "Organizational Controls - 5.2",
+    "description": "Organizations should identify their financial spending levels for IT and IT security investment (as raw numbers and as a percent of total expenditures).",
+    "category": "Organizational Controls",
+    "subcategory": "Confirm Cyber Security Investment Levels",
+    "example_list": []
+  },
+  "OC.5.3": {
+    "id": "OC.5.3",
+    "name": "Organizational Controls - 5.3",
+    "description": "Organizations should identify their internal staffing levels for IT and IT security (as raw numbers and as a percent of total  staff).",
+    "category": "Organizational Controls",
+    "subcategory": "Confirm Cyber Security Investment Levels",
+    "example_list": []
+  },
+  "OC.5.4": {
+    "id": "OC.5.4",
+    "name": "Organizational Controls - 5.4",
+    "description": "Organizations should commit to progressive improvements to cyber security.",
+    "category": "Organizational Controls",
+    "subcategory": "Confirm Cyber Security Investment Levels",
+    "example_list": []
+  },
+  "BC.1.1": {
+    "id": "BC.1.1",
+    "name": "Baseline Controls - 1.1",
+    "description": "Organizations should have a basic plan for how to respond to incidents of varying severity. If an organization is unable to m anage some types of incidents on  its own, the organization should have a plan for what it will do .",
+    "category": "Baseline Controls",
+    "subcategory": "Develop an Incident Response Plan",
+    "example_list": []
+  },
+  "BC.1.2": {
+    "id": "BC.1.2",
+    "name": "Baseline Controls - 1.2",
+    "description": "Organizations should have a written incident response plan that details who is responsible for handling incidents , including any relevant contact information for communicating to external parties, stakeholders , and regulators. Organizations should have an up to date hard copy version of this plan available for situations where soft copies are not available .",
+    "category": "Baseline Controls",
+    "subcategory": "Develop an Incident Response Plan",
+    "example_list": []
+  },
+  "BC.1.3": {
+    "id": "BC.1.3",
+    "name": "Baseline Controls - 1.3",
+    "description": "Organizations should consider purchasing a cyber security insurance policy that includes coverage for incident response and recovery activities  OR provide a rationale for not purchasing one .",
+    "category": "Baseline Controls",
+    "subcategory": "Develop an Incident Response Plan",
+    "example_list": []
+  },
+
+  "BC.2.1": {
+    "id": "BC.2.1",
+    "name": "Baseline Controls - 2.1",
+    "description": "Organizations should enable automatic patching for all software and hardware OR establish full vulnerability and patch management solutions.",
+    "category": "Baseline Controls",
+    "subcategory": "Automatically Patch Operating Systems and Applications",
+    "example_list": []
+  },
+  "BC.2.2": {
+    "id": "BC.2.2",
+    "name": "Baseline Controls - 2.2",
+    "description": "Organizations should conduct risk assessment activities as to whether to replace any software and hardware that are not capable of automatic updates. If the organization chooses to keep such devices, they should have a business process to ensure regular manual updates.",
+    "category": "Baseline Controls",
+    "subcategory": "Automatically Patch Operating Systems and Applications",
+    "example_list": []
+  },
+  "BC.3.1": {
+    "id": "BC.3.1",
+    "name": "Baseline Controls - 3.1",
+    "description": "Organizations should enable anti-malware solutions that update and scan automatically.",
+    "category": "Baseline Controls",
+    "subcategory": "Enable Security Software",
+    "example_list": []
+  },
+  "BC.3.2": {
+    "id": "BC.3.2",
+    "name": "Baseline Controls - 3.2",
+    "description": "Organizations should activate any software firewalls included on the devices that are within organizational networks OR document the alternative measures in place instead of these firewalls.",
+    "category": "Baseline Controls",
+    "subcategory": "Enable Security Software",
+    "example_list": []
+  },
+  "BC.4.1": {
+    "id": "BC.4.1",
+    "name": "Baseline Controls - 4.1",
+    "description": "Organizations should implement secure configurations for all their devices, changing all default passwords, turning off unnecessary features, and enabling all relevant security features.",
+    "category": "Baseline Controls",
+    "subcategory": "Securely Configure Devices",
+    "example_list": []
+  },
+  "BC.5.1": {
+    "id": "BC.5.1",
+    "name": "Baseline Controls - 5.1",
+    "description": "Organizations should implement two-factor authentication wherever possible, and document all instances where they make the business decision not to do so. Organizations should require two-factor authentication for important accounts such as financial accounts, system administrators, cloud administration, privileged users, and senior executives.",
+    "category": "Baseline Controls",
+    "subcategory": "Use Strong User Authentication",
+    "example_list": []
+  },
+  "BC.5.2": {
+    "id": "BC.5.2",
+    "name": "Baseline Controls - 5.2",
+    "description": "Organizations should enforce password changes on suspicion or evidence of compromise.",
+    "category": "Baseline Controls",
+    "subcategory": "Use Strong User Authentication",
+    "example_list": []
+  },
+  "BC.5.3": {
+    "id": "BC.5.3",
+    "name": "Baseline Controls - 5.3",
+    "description": "Organizations should have clear policies on password length and reuse, the use of password managers and if, when, and how users can physically write down and securely store a password.",
+    "category": "Baseline Controls",
+    "subcategory": "Use Strong Authentication",
+    "example_list": []
+  },
+  "BC.6.1": {
+    "id": "BC.6.1",
+    "name": "Baseline Controls - 6.1",
+    "description": "Organizations should invest in cyber security awareness and training for their employees.",
+    "category": "Baseline Controls",
+    "subcategory": "Provide Employee With Awareness Training",
+    "example_list": []
+  },
+  "BC.7.1": {
+    "id": "BC.7.1",
+    "name": "Baseline Controls - 7.1",
+    "description": "Organizations should back up systems that contain essential business information and ensure that recovery mechanisms effectively and efficiently restore these systems from backups. Organizations should consider storing backups offline at a secure offsite location OR provide the rationale for not doing so.",
+    "category": "Baseline Controls",
+    "subcategory": "Back Up and Encrypt Data",
+    "example_list": []
+  },
+  "BC.7.2": {
+    "id": "BC.7.2",
+    "name": "Baseline Controls - 7.2",
+    "description": "Organizations should securely store backups in an encrypted state and restrict access to them to those who must access them for the testing or use of restoration activities. Long term backups (e.g. weekly backups) must be stored offline, but frequent backups (e.g. daily backups) may be stored online.",
+    "category": "Baseline Controls",
+    "subcategory": "Back Up and Encrypt Data",
+    "example_list": []
+  },
+  "BC.8.1": {
+    "id": "BC.8.1",
+    "name": "Baseline Controls - 8.1",
+    "description": "Organizations should decide on an ownership model for mobile devices and document the rationale and associated risks.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Mobility",
+    "example_list": []
+  },
+  "BC.8.2": {
+    "id": "BC.8.2",
+    "name": "Baseline Controls - 8.2",
+    "description": "Organizations should enforce separation between work and personal data on mobile devices with access to corporate IT resources and document the details of this separation.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Mobility",
+    "example_list": []
+  },
+  "BC.8.3": {
+    "id": "BC.8.3",
+    "name": "Baseline Controls - 8.3",
+    "description": "Organizations should ensure that employees only download mobile device apps from the organization’s list of trusted sources.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Mobility",
+    "example_list": []
+  },
+  "BC.8.4": {
+    "id": "BC.8.4",
+    "name": "Baseline Controls - 8.4",
+    "description": "Organizations should require that all mobile devices store all sensitive information in a secure, encrypted state.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Mobility",
+    "example_list": []
+  },
+  "BC.8.5": {
+    "id": "BC.8.5",
+    "name": "Baseline Controls - 8.5",
+    "description": "Organizations should consider implementing an enterprise mobility management solution for all mobile devices OR document the risks assumed to the audit, management, and security functionality of mobile devices by not implementing such a solution.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Mobility",
+    "example_list": []
+  },
+  "BC.8.6": {
+    "id": "BC.8.6",
+    "name": "Baseline Controls - 8.6",
+    "description": "Organizations should enforce or educate users to: (1) disable automatic connections to open networks, (2) avoid connecting to unknown Wi-Fi networks, (3) limit the use of Bluetooth and NFC for the exchange of sensitive information, and (4) use corporate Wi-Fi or cellular data network connectivity rather than public Wi-Fi.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Mobility",
+    "example_list": []
+  },
+  "BC.8.7": {
+    "id": "BC.8.7",
+    "name": "Baseline Controls - 8.7",
+    "description": "Organizations should consider using a VPN if they require connectivity to public Wi-Fi networks OR provide the rationale for not using a VPN.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Mobility",
+    "example_list": []
+  },
+  "BC.9.1": {
+    "id": "BC.9.1",
+    "name": "Baseline Controls - 9.1",
+    "description": "Organizations should have dedicated firewalls at the boundaries between its corporate network and the Internet. The organization should isolate Internet-facing servers from the rest of their corporate network.",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.9.2": {
+    "id": "BC.9.2",
+    "name": "Baseline Controls - 9.2",
+    "description": "Organizations should implement a DNS firewall for outbound DNS requests to the Internet.",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.9.3": {
+    "id": "BC.9.3",
+    "name": "Baseline Controls - 9.3",
+    "description": "Organizations should require secure connectivity to all corporate IT resources and require VPN connectivity with two-factor authentication for all remote access into corporate networks.",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.9.4": {
+    "id": "BC.9.4",
+    "name": "Baseline Controls - 9.4",
+    "description": "Organizations should only use secure Wi-Fi, preferably WPA2-Enterprise.",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.9.5": {
+    "id": "BC.9.5",
+    "name": "Baseline Controls - 9.5",
+    "description": "Organizations should never connect public Wi-Fi networks to their corporate networks.",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.9.6": {
+    "id": "BC.9.6",
+    "name": "Baseline Controls - 9.6",
+    "description": "Organizations should isolate point-of-sale systems from the Internet and other areas of the corporate network with a firewall. Organizations should consider following the Payment Card Industry Data Security Standard (PCI DSS).",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.9.7": {
+    "id": "BC.9.7",
+    "name": "Baseline Controls - 9.7",
+    "description": "Organizations should ensure the implementation of DMARC on all of the organization’s email services.",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.9.8": {
+    "id": "BC.9.8",
+    "name": "Baseline Controls - 9.8",
+    "description": "Organizations should implement email filtering at points of ingress and egress.",
+    "category": "Baseline Controls",
+    "subcategory": "Establish Basic Perimeter Defenses",
+    "example_list": []
+  },
+  "BC.10.1": {
+    "id": "BC.10.1",
+    "name": "Baseline Controls - 10.1",
+    "description": "Organizations should require that all their cloud service providers share an AICPA SSAE 18 SOC 3 report that states that they achieved Trust Service Principles compliance.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Cloud and Outsourced IT Services",
+    "example_list": []
+  },
+  "BC.10.2": {
+    "id": "BC.10.2",
+    "name": "Baseline Controls - 10.2",
+    "description": "Organizations should evaluate their comfort level with how their outsourced IT providers handle and access their sensitive information.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Cloud and Outsourced IT Services",
+    "example_list": []
+  },
+  "BC.10.3": {
+    "id": "BC.10.3",
+    "name": "Baseline Controls - 10.3",
+    "description": "Organizations should evaluate their comfort level with the legal jurisdictions where their outsourced providers store or use their sensitive information.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Cloud and Outsourced IT Services",
+    "example_list": []
+  },
+  "BC.10.4": {
+    "id": "BC.10.4",
+    "name": "Baseline Controls - 10.4",
+    "description": "Organizations should ensure that their IT infrastructure and users communicate securely with all cloud services and applications.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Cloud and Outsourced IT Services",
+    "example_list": []
+  },
+  "BC.10.5": {
+    "id": "BC.10.5",
+    "name": "Baseline Controls - 10.5",
+    "description": "Organizations should ensure that administrative accounts for cloud services use two-factor authentication and differ from internal administrator accounts.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Cloud and Outsourced IT Services",
+    "example_list": []
+  },
+  "BC.11.1": {
+    "id": "BC.11.1",
+    "name": "Baseline Controls - 11.1",
+    "description": "Organizations should ensure that their websites address the OWASP top 10 vulnerabilities.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Websites",
+    "example_list": []
+  },
+  "BC.11.2": {
+    "id": "BC.11.2",
+    "name": "Baseline Controls - 11.2",
+    "description": "Organizations should ensure that they understand the ASVS level they need to meet for each of their websites.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Websites",
+    "example_list": []
+  },
+  "BC.12.1": {
+    "id": "BC.12.1",
+    "name": "Baseline Controls - 12.1",
+    "description": "Organizations should provision accounts with the minimum functionality necessary for tasks and, in particular, should restrict administrator privileges to an as required basis.",
+    "category": "Baseline Controls",
+    "subcategory": "Implement Access Control and Authorization",
+    "example_list": []
+  },
+  "BC.12.2": {
+    "id": "BC.12.2",
+    "name": "Baseline Controls - 12.2",
+    "description": "Organizations should only permit administrator accounts to perform administrative activities (and not user level activities such as accessing email or browsing the web).",
+    "category": "Baseline Controls",
+    "subcategory": "Implement Access Control and Authorization",
+    "example_list": []
+  },
+  "BC.12.3": {
+    "id": "BC.12.3",
+    "name": "Baseline Controls - 12.3",
+    "description": "Organizations should remove accounts and/or functionality when employees no longer require these for their tasks.",
+    "category": "Baseline Controls",
+    "subcategory": "Implement Access Control and Authorization",
+    "example_list": []
+  },
+  "BC.12.4": {
+    "id": "BC.12.4",
+    "name": "Baseline Controls - 12.4",
+    "description": "Organizations should consider implementing a centralized authorization control system OR provide a rationale for not implementing a centralized authorization control system.",
+    "category": "Baseline Controls",
+    "subcategory": "Implement Access Control and Authorization",
+    "example_list": []
+  },
+  "BC.13.1": {
+    "id": "BC.13.1",
+    "name": "Baseline Controls - 13.1",
+    "description": "Organizations should mandate the sole use of organization owned secure portable media, have strong asset controls for these devices, and require the use of encryption on all of these devices.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Portable Media",
+    "example_list": []
+  },
+  "BC.13.2": {
+    "id": "BC.13.2",
+    "name": "Baseline Controls - 13.2",
+    "description": "Organizations should have processes for the sanitization or destruction of portable media prior to disposal.",
+    "category": "Baseline Controls",
+    "subcategory": "Secure Portable Media",
+    "example_list": []
+  }
+}
