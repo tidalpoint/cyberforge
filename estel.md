@@ -29,11 +29,11 @@ cd estel
 
 Rename .env.example (located in the Estel folder) to .env.
 
-<img width="396" alt="Screenshot 2025-06-20 at 10 48 11 AM" src="https://github.com/user-attachments/assets/56ac43da-202b-47c5-a5c4-71f6c9506501" />
+![.env.example](screenshots/estel/env-example.png) 
 
 Fill in the "" portion with the actual API key.
 
-<img width="229" alt="Screenshot 2025-06-20 at 10 48 51 AM" src="https://github.com/user-attachments/assets/0f40ebd7-8333-4689-8971-b272c77f180e" />
+![.env.example](screenshots/estel/keys.png) 
 
 ### Starting Estel
 
@@ -76,23 +76,24 @@ Navigate to localhost:8501 to see Estel in action!
 
 - To switch the LLM  being used, navigate to ```constants.py``` and switch the **MODEL_NAME** variable to a model of your choice (e.g. gpt-4o, gpt-4o-mini, etc).
 
-<img width="412" alt="Screenshot 2025-06-19 at 2 54 58 PM" src="https://github.com/user-attachments/assets/4f9d1352-8f93-4f8c-93ef-a630aee72959" />
+![.env.example](screenshots/estel/models.png) 
 
 
 ## 📷 Screenshots
 
-![Home Page](https://github.com/user-attachments/assets/3743ffac-3bca-4a1c-b05d-f31fd479ea41)
+![Home Page](screenshots/estel/homepage.png)
+
 *Figure 1: Home Page + Upload Documents*
 
-![Process Documents](https://github.com/user-attachments/assets/d9f2ef45-a944-433b-8a94-0a06c4ab1e13)
+![Process Documents](screenshots/estel/process.png)
 
 *Figure 2: Process Documents*
 
-![Interactive Chat with Estel](https://github.com/user-attachments/assets/711b1bce-aeb9-45d5-9c7e-47bc79f56073)
+![Interactive Chat with Estel](screenshots/estel/chat.png)
 
 *Figure 3: Interactive Chat with Estel*
 
-![Chat History](https://github.com/user-attachments/assets/0844079a-478e-4913-b56b-717de3689a08)
+![Chat History](screenshots/estel/history.png)
 
 *Figure 4: Chat History*
 

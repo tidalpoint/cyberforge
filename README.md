@@ -62,7 +62,7 @@ To obtain a Cohere API key, please navigate to the following document for step-b
 
 - You will first need to install the Docker Desktop app ([https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/))
 
-<img width="1479" alt="Screenshot 2025-06-18 at 3 59 41 PM" src="https://github.com/user-attachments/assets/84e6a787-5e80-4f80-8b11-c280e374c707" />
+![Docker Download](screenshots/docker.png)  
 
 ### Make sure your API keys are set as environment variables:
 
@@ -70,11 +70,11 @@ To obtain a Cohere API key, please navigate to the following document for step-b
 
 Rename .env.example (located in the root of the project) to .env and add in your API key(s).
 
-<img width="399" alt="Screenshot 2025-06-20 at 2 59 15 PM" src="https://github.com/user-attachments/assets/fb107d0c-45c8-4cec-ae26-4ace16b69654" />
+![.env.example](screenshots/env-example.png)  
 
 Fill in the "" portion with the actual API key(s).
 
-<img width="192" alt="Screenshot 2025-06-18 at 1 52 54 PM" src="https://github.com/user-attachments/assets/d17d9d26-6b69-4fb0-8496-f9a85dbf88d9" />
+![API Keys](screenshots/api-keys.png)  
 
 ----- OR -----
 
@@ -110,11 +110,11 @@ docker compose up
 
 Rename .env.example (located in the root of the project) to .env.
 
-<img width="399" alt="Screenshot 2025-06-20 at 2 59 15 PM" src="https://github.com/user-attachments/assets/fb107d0c-45c8-4cec-ae26-4ace16b69654" />
+![.env.example](screenshots/env-example.png)  
 
 Fill in the "" portion with the actual API key(s).
 
-<img width="192" alt="Screenshot 2025-06-18 at 1 52 54 PM" src="https://github.com/user-attachments/assets/d17d9d26-6b69-4fb0-8496-f9a85dbf88d9" />
+![API Keys](screenshots/api-keys.png)  
 
 ----- OR -----
 
@@ -196,33 +196,34 @@ python app.py
 - To switch the LLM provider being used, navigate to ```config.py``` and switch the **DEFAULT_PROVIDER** variable to either **openai** or **cohere**.
 - Similarly, to switch the LLM being used, navigate to ```config.py``` and switch the ***openai*** or **cohere** entry in the **DEFAULT_MODELS** variable to a model of your choice (e.g. gpt-4o, gpt-4o-mini, command-r, command-r-plus, etc).
   
-<img width="484" alt="Screenshot 2025-05-28 at 3 27 53 PM" src="https://github.com/user-attachments/assets/2894f576-06c8-498c-bc60-9fa108d1d1b0" />
+![Switching Providers/Models](screenshots/switch-models.png)  
+*Figure 1: Onboarding – Upload Documents*
 
 ## 📷 Screenshots
 
-![Onboarding - Upload Documents](https://github.com/user-attachments/assets/20e6edee-cb37-4a90-9530-7cfbad7ddc92)  
+![Onboarding - Upload Documents](screenshots/onboarding%20-%20upload%20documents.png)  
 *Figure 1: Onboarding – Upload Documents*
 
-![Onboarding - Select Framework](https://github.com/user-attachments/assets/b5b14d32-d76a-4884-849b-229aef4389b1)  
+![Onboarding - Select Framework](screenshots/onboarding%20-%20select%20framework.png)  
 *Figure 2: Onboarding – Select Framework*
 
-![Home Page](https://github.com/user-attachments/assets/5456db30-f536-4143-a7f4-59753141ccf7)  
+![Home Page](screenshots/home%20page.png)  
 *Figure 3: Home Page*
 
-![Compliance Page](https://github.com/user-attachments/assets/9d16fc62-cba7-4c49-a9c6-446b0358dd52)  
+![Compliance Page](screenshots/compliance%20page.png)  
 *Figure 4: Compliance Page*
 
-![Control Page](https://github.com/user-attachments/assets/85d2cc5a-a5ce-4aff-be0f-0bb2ecc2d1ff)  
+![Control Page](screenshots/control%20page.png)  
 *Figure 5: Control Page*
 
-![Policy Improver](https://github.com/user-attachments/assets/599fe8cb-d5d4-45a5-adf9-5f47804c1a1a)
+![Policy Improver](screenshots/policy%20improver.png)
 
 *Figure 6: Policy Improver*
 
-![PIPEDA Results](https://github.com/user-attachments/assets/f0749ba6-f9e0-4f5d-99ed-a94363c9ac41)  
+![PIPEDA Results](screenshots/pipeda%20results.png)  
 *Figure 7: PIPEDA Results*
 
-![Chat Assistant](https://github.com/user-attachments/assets/75aec415-5deb-4e08-999b-29ba9abaf561)  
+![Chat Assistant](screenshots/chat%20assistant.png)  
 *Figure 8: Chat Assistant*
 
 ## 📣 Additional Info
@@ -235,7 +236,7 @@ CyberForge has two other variations, customized to your needs:
 
 - For a lightweight version of CyberForge (without control score analysis) running on a free, self-hosted LLM (Mistral), please navigate to the following repository to set it up!
   
-[![CyberForge-ember Repository](https://img.shields.io/badge/CyberForge-ember-5A3EBA?style=for-the-badge&logo=cohere&logoColor=white)](https://github.com/tidalpoint/cyberforge-ember-internal)
+[![CyberForge-ember Repository](https://img.shields.io/badge/CyberForge-ember-5A3EBA?style=for-the-badge&logo=cohere&logoColor=white)](https://github.com/tidalpoint/cyberforge-ember)
 
 
 ## 📄 License
