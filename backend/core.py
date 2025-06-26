@@ -413,6 +413,8 @@ def csf_control_list_compliance() -> None:
 
     for t in threads:
         t.join()
+    
+    globals.num_controls_evaluated = 0
 
     print("Finished CSF compliance evaluation\n")
 
