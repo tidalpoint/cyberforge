@@ -4,6 +4,7 @@ import { SparklesIcon } from '@heroicons/react/24/solid'
 import ControlsProgressDial from '@/components/ControlsProgressDial'
 import PageHeader from '@/components/PageHeader'
 import { Card } from '@/components/ui/card'
+import { AGENT_NAME } from '@/constants'
 import { ROUTES } from '@/constants/routes'
 import { useGetControl } from '@/queries/useGetControl'
 import { getCompliance } from '@/utils/getCompliance'
@@ -38,7 +39,7 @@ const ControlPage = () => {
 
           <div className="flex items-center gap-3 text-compliance">
             <SparklesIcon className="h-6 w-6" />
-            <span className="font-bold text-lg">RiskAssist's Assessment</span>
+            <span className="font-bold text-lg">{AGENT_NAME}'s Assessment</span>
           </div>
 
           <p className="text-gray-900 font-semibold text-lg mt-6 mb-2">
