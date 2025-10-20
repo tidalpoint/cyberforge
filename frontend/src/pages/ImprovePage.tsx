@@ -81,7 +81,7 @@ const ImprovePage = () => {
             <Card className="flex items-center justify-center flex-col gap-4 h-[250px] max-w-[660px] w-full border-dashed bg-white select-none">
               <img src="/search.png" className="h-24" />
               <div className="grid gap-0.5 text-center">
-                <p className="text-gray-700 text-lg font-semibold">Working on Improved Document</p>
+                <p className="text-gray-700 text-lg font-semibold">Working on improved document</p>
                 <p className="text-gray-500 text-sm font-semibold">Try again in a minute</p>
               </div>
             </Card>

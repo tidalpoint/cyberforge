@@ -5,7 +5,7 @@ Provider = Literal["openai", "cohere"]
 DEFAULT_PROVIDER: Final[Provider] = "openai"
 
 DEFAULT_MODELS: Final[dict[Provider, str]] = {
-    "openai": "gpt-4o-mini",
+    "openai": "gpt-4o",
     "cohere": "command-a-03-2025",
 }
 
