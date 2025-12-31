@@ -1,3 +1,5 @@
 .env
 .DS_Store
 chromedriver
+test_cohere_key.py
+.env.example

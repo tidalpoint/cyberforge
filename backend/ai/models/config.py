@@ -2,7 +2,7 @@ from typing import Final, Literal
 
 Provider = Literal["openai", "cohere"]
 
-DEFAULT_PROVIDER: Final[Provider] = "openai"
+DEFAULT_PROVIDER: Final[Provider] = "cohere"
 
 DEFAULT_MODELS: Final[dict[Provider, str]] = {
     "openai": "gpt-4o",

@@ -3,6 +3,7 @@ import json
 import os
 import re
 import threading
+import time
 from collections import defaultdict
 from datetime import datetime
 from math import ceil
@@ -264,6 +265,19 @@ def rag_sections(query: str) -> str:
 def create_expert_knowledge_vector_store() -> None:
     """Creates a new expert knowledge vector store that gets persisted in the file system"""
     try:
+        # Check if vector store already exists and load it instead of recreating
+        if os.path.exists(globals.EXPERT_KNOWLEDGE_VECTOR_DB_FOLDER):
+            print(f"Loading existing expert knowledge vector store from {globals.EXPERT_KNOWLEDGE_VECTOR_DB_FOLDER}")
+            globals.expert_knowledge_vector_store = FAISS.load_local(
+                globals.EXPERT_KNOWLEDGE_VECTOR_DB_FOLDER,
+                get_embedding_function(),
+                allow_dangerous_deserialization=True
+            )
+            print("Successfully loaded existing expert knowledge vector store")
+            return
+
+        # If it doesn't exist, create it (with rate limiting awareness)
+        print("Creating new expert knowledge vector store...")
         loader = PyPDFDirectoryLoader(globals.EXPERT_KNOWLEDGE_FOLDER)
         documents = loader.load()
 
@@ -277,12 +291,34 @@ def create_expert_knowledge_vector_store() -> None:
         )
         splits = text_splitter.split_documents(documents)
 
-        globals.expert_knowledge_vector_store = FAISS.from_documents(
-            documents=splits, embedding=get_embedding_function()
-        )
+        print(f"Creating embeddings for {len(splits)} document chunks (this may take a while due to rate limits)...")
+
+        # Process in smaller batches to avoid rate limits
+        batch_size = 50  # Process 50 chunks at a time
+        all_batches = []
+
+        for i in range(0, len(splits), batch_size):
+            batch = splits[i:i + batch_size]
+            print(f"Processing batch {i // batch_size + 1}/{(len(splits) + batch_size - 1) // batch_size}")
+
+            if all_batches:
+                # Add delay between batches to respect rate limits
+                time.sleep(10)  # 10 second delay between batches
+
+            batch_store = FAISS.from_documents(
+                documents=batch, embedding=get_embedding_function()
+            )
+            all_batches.append(batch_store)
+
+        # Merge all batches
+        globals.expert_knowledge_vector_store = all_batches[0]
+        for batch_store in all_batches[1:]:
+            globals.expert_knowledge_vector_store.merge_from(batch_store)
+
         globals.expert_knowledge_vector_store.save_local(
             globals.EXPERT_KNOWLEDGE_VECTOR_DB_FOLDER
         )
+        print("Successfully created and saved expert knowledge vector store")
     except Exception as e:
         print(f"Failed to create expert knowledge vector store: {e}")
         raise ValueError("Failed to create expert knowledge vector store") from e
@@ -410,6 +446,9 @@ def csf_control_list_compliance() -> None:
         )
         threads.append(t)
         t.start()
+        # Add delay to respect Cohere Trial API rate limits (10 calls/min)
+        # Each control makes 2 API calls (score + actions), so we need ~12 sec per control
+        time.sleep(12)  # ~5 controls per minute = 10 API calls per minute
 
     for t in threads:
         t.join()
